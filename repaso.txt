@@ -16,3 +16,7 @@ git log -> Me permite ver los commits guardados.
             * --oneline -> me muestra los commits de manera mas simplificada.
             * >archivo.txt -> los exporta a un archivo.
 git checkout #hast -> Me permite regresar a un commit anterior.
+
+git branch nombre_rama -> Crea una nueva rama.
+git branch -> Me permite ver las ramas existentes y me muestra en cual estoy.
+git checkout nombre_rama -> Me posiciona en la rama seleccionada.
