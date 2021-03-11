@@ -4,3 +4,9 @@ Configuración del user y email.
 git config --global user.name "jerry"
 git config --global user.email "jerry@example.com"
 Las configuraciones del user y email solamente se realizan una vez cuando se instala por primera vez Git en el ordenador.
+
+git init -> Inicializa un repositorio.
+git add #archivo -> Pasa los archivos del workspace al staging area 
+                    (se puede usar . en vez del nombre del archivo) de esta manera pasa todo lo que contenga el workspace a la staging area.
+
+git commit -m "mensaje" -> Pasa los archivos del staging area al repositorio.
